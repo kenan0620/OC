@@ -15,4 +15,7 @@
 @property (nonatomic, copy) NSString *PropertyFour;
 
 @property (nonatomic, assign) int num;
+
+- (void)modelName;
+
 @end

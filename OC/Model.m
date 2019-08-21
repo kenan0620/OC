@@ -13,5 +13,11 @@
 @end
 
 @implementation Model
+- (void)modelName{
+    NSLog(@"modelName");
+}
 
+- (void)modelNameTest{
+    NSLog(@"modelNameTest");
+}
 @end
