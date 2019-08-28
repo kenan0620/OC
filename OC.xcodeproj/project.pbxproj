@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27907CBF2314DFF4007F0168 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27907CBE2314DFF4007F0168 /* TestTableViewCell.m */; };
 		27C76905230CD96400AA11E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C76904230CD96400AA11E4 /* AppDelegate.m */; };
 		27C76908230CD96400AA11E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C76907230CD96400AA11E4 /* ViewController.m */; };
 		27C7690B230CD96400AA11E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C76909230CD96400AA11E4 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		27C7693A230CE49B00AA11E4 /* SonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C76939230CE49B00AA11E4 /* SonModel.m */; };
 		27C7693D230CE74C00AA11E4 /* Model+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C7693C230CE74C00AA11E4 /* Model+Category.m */; };
 		27C76940230CE75A00AA11E4 /* SonModel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C7693F230CE75A00AA11E4 /* SonModel+Category.m */; };
+		27F6A2962316034000C85666 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F6A2952316034000C85666 /* GCDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27907CBD2314DFF4007F0168 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		27907CBE2314DFF4007F0168 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		27C76900230CD96400AA11E4 /* OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C76903230CD96400AA11E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27C76904230CD96400AA11E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		27C7693C230CE74C00AA11E4 /* Model+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Model+Category.m"; sourceTree = "<group>"; };
 		27C7693E230CE75A00AA11E4 /* SonModel+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SonModel+Category.h"; sourceTree = "<group>"; };
 		27C7693F230CE75A00AA11E4 /* SonModel+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SonModel+Category.m"; sourceTree = "<group>"; };
+		27F6A2942316034000C85666 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		27F6A2952316034000C85666 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				27C76904230CD96400AA11E4 /* AppDelegate.m */,
 				27C76906230CD96400AA11E4 /* ViewController.h */,
 				27C76907230CD96400AA11E4 /* ViewController.m */,
+				27F6A2942316034000C85666 /* GCDViewController.h */,
+				27F6A2952316034000C85666 /* GCDViewController.m */,
+				27907CBD2314DFF4007F0168 /* TestTableViewCell.h */,
+				27907CBE2314DFF4007F0168 /* TestTableViewCell.m */,
 				27C76935230CE0F800AA11E4 /* Model.h */,
 				27C76936230CE0F800AA11E4 /* Model.m */,
 				27C7693B230CE74C00AA11E4 /* Model+Category.h */,
@@ -286,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C76908230CD96400AA11E4 /* ViewController.m in Sources */,
+				27F6A2962316034000C85666 /* GCDViewController.m in Sources */,
+				27907CBF2314DFF4007F0168 /* TestTableViewCell.m in Sources */,
 				27C7693D230CE74C00AA11E4 /* Model+Category.m in Sources */,
 				27C76913230CD96400AA11E4 /* main.m in Sources */,
 				27C76905230CD96400AA11E4 /* AppDelegate.m in Sources */,
